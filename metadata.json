@@ -1,0 +1,5 @@
+{
+  "name": "Pattern Grid Animator",
+  "description": "A dynamic and configurable grid that displays a sweeping anti-diagonal color pattern. Users can start, stop, and resize the grid in real-time.",
+  "requestFramePermissions": []
+}
