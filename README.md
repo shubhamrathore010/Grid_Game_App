@@ -1,20 +1,89 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Grid Game App 🎮
 
-# Run and deploy your AI Studio app
+A grid-based interactive game built with React + TypeScript.  
+This repo was originally developed as an assignment for F.O.G. :contentReference[oaicite:0]{index=0}
 
-This contains everything you need to run your app locally.
+Live Demo: [grid-game-app.onrender.com](https://grid-game-app.onrender.com) :contentReference[oaicite:1]{index=1}
 
-View your app in AI Studio: https://ai.studio/apps/drive/19cEasjTeeqN0dtdepDp-Wuk_2tJQ4HKv
+---
 
-## Run Locally
+## Table of Contents
 
-**Prerequisites:**  Node.js
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+- [Folder Structure](#folder-structure)  
+- [Acknowledgements](#acknowledgements)
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Features
+
+List what your app can do. Example:
+
+- Dynamic grid generation  
+- Click / tap interactions  
+- Score tracking  
+- State management  
+- Responsive UI  
+- Configurable grid size / difficulty  
+
+---
+
+## Tech Stack
+
+- **React** + **TypeScript**  
+- **Vite** as build tool (vite.config.ts) :contentReference[oaicite:2]{index=2}  
+- Component structure (folder `components`) :contentReference[oaicite:3]{index=3}  
+- Logic / state functions (folder `logic`) :contentReference[oaicite:4]{index=4}  
+- Other supporting files: `constants.ts`, `types.ts` :contentReference[oaicite:5]{index=5}  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14+ recommended)  
+- npm or yarn  
+
+### Installation
+
+```bash
+git clone https://github.com/shubhamrathore010/Grid_Game_App.git
+cd Grid_Game_App
+npm install
+```
+
+### Running Locally
+
+```bash
+npm run dev
+```
+### Production Build
+
+```bash
+npm run build
+```
+### Folder Structure
+```bash
+Grid_Game_App/
+├── components/        # React UI components
+├── logic/             # Game logic, utilities
+├── App.tsx
+├── index.tsx
+├── constants.ts
+├── types.ts
+├── vite.config.ts
+├── package.json
+└── README.md
+```
+
+### Acknowledgements
+
+Thanks to F.O.G for the assignment prompt 
+GitHub
+
+Inspiration / libraries or tutorials you used
+
+Any mentors or collaborators
